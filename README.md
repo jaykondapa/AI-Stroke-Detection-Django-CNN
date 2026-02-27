@@ -1,4 +1,4 @@
-# AI-Powered Stroke Detection System (CNN + Medical Imaging)
+# AI-Powered Stroke Detection System using CNN
 
 A deep learning-based medical image classification system that detects stroke from CT scan images using Convolutional Neural Networks (CNN) and OpenCV preprocessing techniques.
 
@@ -51,14 +51,17 @@ The CNN outperformed traditional ML baselines.
   - Matplotlib
 
 ##  Project Structure
-  AI-Stroke-Detection-CNN/
-  │
-  ├── model/
-  ├── static/
-  ├── templates/
-  ├── app.py
-  ├── requirements.txt
-  └── README.md
+  AI-Stroke-Detection-Django-CNN/
+   │
+   ├── AdminApp/
+   ├── UserApp/
+   ├── BrainStrokeCNN/ # Django settings
+   ├── model/ # Trained CNN model (.h5)
+   ├── static/ # Static assets
+   ├── templates/ # HTML templates
+   ├── manage.py
+   ├── requirements.txt
+   └── README.md
 
 ##  Dataset
 
