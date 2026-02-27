@@ -9,7 +9,7 @@ This project implements a CNN-based classifier trained on real-world CT scan ima
 - Image preprocessing using OpenCV
 - CNN training and evaluation
 - Model comparison with Random Forest and Decision Tree
-- Web-based deployment using Flask
+- Web-based deployment using Django
 - Real-time stroke prediction interface
 
 ##  Model Performance
@@ -37,7 +37,7 @@ The CNN outperformed traditional ML baselines.
    - Categorical Cross-entropy loss
 
 3. Web Deployment
-   - Flask backend
+   - Django backend
    - Image upload interface
    - Real-time prediction output
 
@@ -46,7 +46,7 @@ The CNN outperformed traditional ML baselines.
   - Python
   - TensorFlow / Keras
   - OpenCV
-  - Flask
+  - Django
   - NumPy / Pandas
   - Matplotlib
 
