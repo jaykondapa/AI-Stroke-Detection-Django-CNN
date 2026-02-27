@@ -35,6 +35,9 @@ The CNN outperformed traditional ML baselines.
    - Softmax output
    - Adam optimizer
    - Categorical Cross-entropy loss
+   - Training epochs: 30
+   - Batch size: 32
+   - Train/Test split: 80/20
 
 3. Web Deployment
    - Django backend
